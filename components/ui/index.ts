@@ -1,2 +1,2 @@
 export * from "./Navbar";
-export * from "./noFavorites";
+export * from "./NoFavorites";
