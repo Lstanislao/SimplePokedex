@@ -7,7 +7,7 @@ import { Layout } from "../../components/layouts";
 import { PokemonFull } from "../../interfaces/pokemon-full";
 import Image from "next/image";
 import { localFavorites } from "../../utils";
-import confetti from "canvas-confetti";
+//import confetti from "canvas-confetti";
 
 interface Props {
   pokemon: PokemonFull;
@@ -24,13 +24,13 @@ const PokemonPage: NextPage<Props> = ({ pokemon }) => {
 
     if (isInFavorites) return;
 
-    confetti({
-      particleCount: 100,
-      spread: 70,
-      angle: -100,
-      origin: { y: 0, x: 1 },
-      zIndex: 999,
-    });
+    // confetti({
+    //   particleCount: 100,
+    //   spread: 70,
+    //   angle: -100,
+    //   origin: { y: 0, x: 1 },
+    //   zIndex: 999,
+    // });
   };
 
   return (
