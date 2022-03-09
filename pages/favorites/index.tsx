@@ -8,7 +8,7 @@ import FavoritesPokemons from "../../components/pokemons/FavoritesPokemons";
 
 const FavoritesPage: NextPage = () => {
   const [favoritesPokemons, setFavoritesPokemons] = useState<number[]>([]);
-
+  //commit
   useEffect(() => {
     setFavoritesPokemons(localFavorites.pokemons);
   }, []);
