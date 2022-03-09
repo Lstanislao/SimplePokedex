@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { NextPage } from "next";
 import { Layout } from "../../components/layouts/Layout";
 import { Container, Text, Image, Grid, Card } from "@nextui-org/react";
-import NoFavorites from "../../components/ui/noFavorites";
+import NoFavorites from "../../components/ui/NoFavorites";
 import { localFavorites } from "../../utils";
 import FavoritesPokemons from "../../components/pokemons/FavoritesPokemons";
 
